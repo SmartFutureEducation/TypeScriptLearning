@@ -14,3 +14,6 @@ JavaScript basics are required to start your TypeScript projects. Here're some r
 - JavaScript Operators: https://www.w3schools.com/js/js_operators.asp
 - JavaScript Comparison and Logical Operators:  https://www.w3schools.com/js/js_comparisons.asp
 - Conditional statements: https://www.w3schools.com/js/js_if_else.asp
+
+
+VSCode or other IDEs can be used. For beginners, just start to play with it here: https://www.typescriptlang.org/play
