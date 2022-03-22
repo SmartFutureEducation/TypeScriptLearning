@@ -14,7 +14,7 @@ console.log("Game on!!")
 console.log("")
 
 // Pring Player Names
-console.log("Pring Player Names")
+console.log("Printing Player Names")
 console.log("Welcome player Hugo!")
 console.log("Welcome player Grace!")
 console.log("Welcome player Antony!")
@@ -49,6 +49,7 @@ console.log("Const map_width is " + map_width)
 // types & undefined
 let player1Score = 100          // auto recognized as number type
 console.log(player1Score)
+console.log(typeof(player1Score))
 // The following will report error as types not aligned
 // player1Score = "Jack"
 
@@ -56,8 +57,11 @@ let player2Score                // type of 'any'
 console.log(player2Score)
 player2Score = 99
 console.log(player2Score)
+console.log(typeof(player2Score))
 player2Score = "Welcome to the score board!"
 console.log(player2Score)
+console.log(typeof(player2Score))
+
 
 // declare types
 let welcomeMessage1 = "Welcome!!!"
@@ -77,6 +81,9 @@ Give it a try. `
 console.log(longComments)
 
 // Better format for long strings 
+console.log(`Let's compose a long string with different variables.
+The welcomeMessage1 value is ` + welcomeMessage1 + `The welcomeMessage2 value is ` + welcomeMessage2 +`The player1Score is ` + player1Score + `.`)
+
 console.log(`Let's compose a long string with different variables.
 The welcomeMessage1 value is ${welcomeMessage1}
 The welcomeMessage2 value is ${welcomeMessage2}
